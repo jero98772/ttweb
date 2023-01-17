@@ -21,3 +21,9 @@ ttweb is a web interface tt ,that can handle multiple users
 ![](https://raw.githubusercontent.com/jero98772/ttweb/main/misc/Screenshots/2.png)
 ![](https://raw.githubusercontent.com/jero98772/ttweb/main/misc/Screenshots/3.png)
 ![](https://raw.githubusercontent.com/jero98772/ttweb/main/misc/Screenshots/4.png)
+
+
+### Referents
+
+ - [t](https://github.com/nuex/t)
+ - [son0p](https://github.com/son0p/)
