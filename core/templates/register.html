@@ -1,11 +1,6 @@
 {% extends  'template.html'%}
 {% block content %} 
-{% if session['loged'] %}
-	<h1>
-		You are Loged
-		you need <a href="/unlog">unlog?</a>
-	</h1>
-{% else %}
+
 <center>
 	<h1>
 		Create User	
@@ -23,7 +18,7 @@
 <input type="password" name="pwd2" required>
 <br>
 <input type="submit" name="">
+{{ msg }}
 </form>
 </center>
-{% endif %}
 {% endblock  %}
