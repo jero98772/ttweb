@@ -17,11 +17,8 @@ class webpage():
       if session['status']:
         if request.form["category"]:
           session['status']=False
-          print("st1",session['status'])
-          data=request.form["category"]
           writef(session['file'] ,formatin(data))
       else:
-        print("st",session['status'],formatout())
         writef(session['file'] ,formatout())
         session['status']=True
     return render_template("index.html",data=data)
@@ -36,6 +33,7 @@ class webpage():
         session['user'] = usr
         file=DATAUSER+usr+".ldg"
         session['file'] = file
+        session['status']=True
         return redirect("/")
     return render_template("login.html")
   @app.route("/register",methods = ['GET','POST'])
@@ -75,7 +73,6 @@ class webpage():
     try:
       if session['loged']:
         data=getbal(session['file'])
-        #print(session['file'])
     except:
         data="you need login"
     return render_template("data.html",data=data)

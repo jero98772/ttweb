@@ -1,13 +1,21 @@
 # ttweb
-### features 
-### Screenshots
+[tt](https://github.com/son0p/scriptson0p/blob/main/bash/tt) is a bash script that use ledger for time counting in different activities and subactivities
+
+ttweb is a web interface tt ,that can handle multiple users 
 ### Installing
+
 **Download repositories**
 
     git clone https://github.com/jero98772/ttweb.git
 
+**Install Dependencies**
+
+    python setup.py install
+
 **Run:**  
 
-### Made for:
-#### Ethical purpose
-#### Non-ethical purpose
+    python ttweb.py
+
+### Screenshots
+
+!(1)[]

@@ -5,16 +5,18 @@
 	<center>
 		<div>
 			<h1>Add register</h1>
+			<h2>input of register</h2>
+			<br><br>
 			<table>
 				{% if session['status'] %}
-				<tr><input type="text" name="category" value="{{ data }}"></tr>
+				<tr><input type="text" name="category" placeholder="activity:subactivity"></tr>
 				<tr>
-					<th><button type="submmit" class="btn btn-primary" value="Start">Start</button></th>
+					<th><button type="submmit" class="btn btn-primary btn-lg btn-block" value="Start">Start</button></th>
 				</tr>
 				{% else %}
-				<tr>{{ data }}</tr>
+				<tr><h3>{{ data }}</h3></tr>
 				<tr>
-					<th><button type="submmit" class="btn btn-primary" value="Stop">Stop</button></th>
+					<th><button type="submmit" class="btn btn-secondary btn-lg btn-block" value="Stop">Stop</button></th>
 				</tr>
 				{% endif %}
 			</table>
@@ -24,9 +26,11 @@
 {% else %}
 <h1>ttwb</h1>
 <h2>tt</h2>
-<p>tt is a bash script that use ledger for count time spent on x activity and sub-activities</p>
+<p><a href="https://github.com/son0p/scriptson0p/blob/main/bash/tt">tt</a> is a bash script that use ledger for time counting in different activities and subactivities</p>
+<p>ttweb is a web interface tt ,that can handle multiple users </p>
 <div class="alert alert-warning" role="alert">
 	<h1>You need to be registered!</h1>
 </div>
+<a href="">register</a>
 {% endif %}
 {% endblock %}
