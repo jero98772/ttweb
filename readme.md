@@ -18,4 +18,7 @@ ttweb is a web interface tt ,that can handle multiple users
 
 ### Screenshots
 
-!(1)[]
+!(1)[https://raw.githubusercontent.com/jero98772/ttweb/main/misc/Screenshots/1.png]
+!(2)[https://raw.githubusercontent.com/jero98772/ttweb/main/misc/Screenshots/2.png]
+!(3)[https://raw.githubusercontent.com/jero98772/ttweb/main/misc/Screenshots/3.png]
+!(4)[https://raw.githubusercontent.com/jero98772/ttweb/main/misc/Screenshots/4.png]
